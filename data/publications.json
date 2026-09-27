@@ -1,0 +1,38 @@
+[
+  {
+    "year": 2026,
+    "authors": "Hennig Bordignon, G., Longhi Ozelame, A. C., Klein, N., Teston Machado, J., De Quadros Martins, A. R., & Costa, C.",
+    "title": "Potencializando competências: o impacto do pensamento computacional em jovens participantes de um curso formativo",
+    "venue": "Revista Iberoamericana de Tecnología en Educación y Educación en Tecnología",
+    "details": "(43), e2",
+    "doi": "10.24215/18509959.43.e2",
+    "summary": {
+      "pt": "Avalia o impacto de um curso formativo em pensamento computacional sobre as competências de jovens participantes.",
+      "en": "Evaluates how a computational-thinking training course affects the skills of young participants."
+    }
+  },
+  {
+    "year": 2023,
+    "authors": "Klein, N., Costa, C., Marôco, J. P., Pereira, C. R., & Chambel, M. J.",
+    "title": "The Psychological Effects of Relational Job Characteristics Scale: An Adaptation Study for Brazilian K-12 Teachers",
+    "venue": "Merits",
+    "details": "3(4), 668–681",
+    "doi": "10.3390/merits3040040",
+    "summary": {
+      "pt": "Estudo psicométrico com 2.011 professores da educação básica que testa validade, invariância e consistência interna de uma escala tridimensional de características relacionais do trabalho.",
+      "en": "Psychometric study with 2,011 Brazilian K-12 teachers testing the validity, invariance and internal consistency of a three-dimensional scale of relational job characteristics."
+    }
+  },
+  {
+    "year": 2023,
+    "authors": "Klein, N., Costa, C., Pereira, C. R., Chambel, M. J., & Marôco, J. P.",
+    "title": "Relational Job Characteristics and Well-Being of Brazilian K-12 Teachers",
+    "venue": "Trends in Psychology",
+    "details": "33(4), 1506–1522",
+    "doi": "10.1007/s43076-023-00335-2",
+    "summary": {
+      "pt": "Com 2.205 professores e modelagem de equações estruturais com múltiplos mediadores, analisa como características relacionais do trabalho influenciam exaustão, engajamento e saúde percebida segundo o modelo JD-R.",
+      "en": "Using multiple-mediator structural equation modeling with 2,205 teachers, examines how relational job characteristics shape exhaustion, engagement and perceived health under the JD-R model."
+    }
+  }
+]

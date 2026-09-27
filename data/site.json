@@ -1,0 +1,23 @@
+{
+  "name": "Natan Klein",
+  "url": "https://klein-natan.github.io/personal-page",
+  "tagline": {
+    "pt": "Cientista comportamental · Inteligência Artificial · Dados",
+    "en": "Behavioral scientist · Artificial Intelligence · Data"
+  },
+  "description": {
+    "pt": "Natan Klein — cientista comportamental, psicólogo e professor de Inteligência Artificial e Análise de Dados.",
+    "en": "Natan Klein — behavioral scientist, psychologist and lecturer in Artificial Intelligence and Data Analysis."
+  },
+  "email": "natan.klein.ai@gmail.com",
+  "whatsapp": "5554981286411",
+  "whatsappDisplay": "+55 54 98128-6411",
+  "crp": "07/34375",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/natanklein",
+    "github": "https://github.com/klein-natan",
+    "instagram": "https://www.instagram.com/natan.klein.ai",
+    "lattes": "http://lattes.cnpq.br/6881313477694689",
+    "orcid": "https://orcid.org/0000-0002-7436-2042"
+  }
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "title": {
+      "pt": "Nanodegree de IA & ML",
+      "en": "AI & ML Nanodegree"
+    },
+    "description": {
+      "pt": "O livro do Nanodegree de Inteligência Artificial e Machine Learning da Atitus: catorze aulas com busca, notebooks no Colab, datasets e projetos práticos.",
+      "en": "The course book for the Atitus Artificial Intelligence & Machine Learning Nanodegree: fourteen lessons with search, Colab notebooks, datasets and hands-on projects."
+    },
+    "tags": [
+      {
+        "pt": "Ensino",
+        "en": "Teaching"
+      },
+      "Machine Learning",
+      "Python"
+    ],
+    "links": [
+      {
+        "label": {
+          "pt": "Ler o livro",
+          "en": "Read the book"
+        },
+        "url": "https://klein-natan.github.io/nanodegree-AI-Atitus/"
+      },
+      {
+        "label": {
+          "pt": "Código",
+          "en": "Code"
+        },
+        "url": "https://github.com/klein-natan/nanodegree-AI-Atitus"
+      }
+    ]
+  },
+  {
+    "title": {
+      "pt": "Previsão de evasão no Moodle",
+      "en": "Moodle dropout prediction"
+    },
+    "description": {
+      "pt": "Pipeline de machine learning que identifica estudantes em risco de evasão a partir dos logs de interação e do desempenho no Moodle, com tratamento de dados ausentes orientado pelo domínio.",
+      "en": "Machine learning pipeline that flags students at risk of dropping out from Moodle interaction logs and grades, with domain-aware handling of missing data."
+    },
+    "tags": [
+      {
+        "pt": "Educação",
+        "en": "Education"
+      },
+      "Machine Learning",
+      "Python"
+    ],
+    "links": [
+      {
+        "label": {
+          "pt": "Código",
+          "en": "Code"
+        },
+        "url": "https://github.com/klein-natan/moodle_dropout_prediction"
+      }
+    ]
+  },
+  {
+    "title": {
+      "pt": "Abandono do tratamento de tuberculose",
+      "en": "Tuberculosis treatment loss to follow-up"
+    },
+    "description": {
+      "pt": "Ambiente reprodutível (Docker) para treinar modelos que preveem o abandono do tratamento de tuberculose com dados do SINAN. Usado como desafio no Nanodegree.",
+      "en": "Reproducible Docker environment for training models that predict tuberculosis treatment loss to follow-up from Brazil's SINAN data. Used as a Nanodegree challenge."
+    },
+    "tags": [
+      {
+        "pt": "Saúde",
+        "en": "Health"
+      },
+      {
+        "pt": "Epidemiologia",
+        "en": "Epidemiology"
+      },
+      "Docker"
+    ],
+    "links": [
+      {
+        "label": {
+          "pt": "Código",
+          "en": "Code"
+        },
+        "url": "https://github.com/klein-natan/tuberculosis-ltfu-prediction"
+      }
+    ]
+  },
+  {
+    "title": {
+      "pt": "Churn bancário de ponta a ponta (MLOps)",
+      "en": "End-to-end bank churn (MLOps)"
+    },
+    "description": {
+      "pt": "Sistema de demonstração que vai dos dados à API: pandas, scikit-learn, Optuna, MLflow e FastAPI. Uso como exemplo nas aulas de ML.",
+      "en": "Demo system from data to API with pandas, scikit-learn, Optuna, MLflow and FastAPI. I use it as a running example in ML lectures."
+    },
+    "tags": [
+      "MLOps",
+      "FastAPI",
+      "Python"
+    ],
+    "links": [
+      {
+        "label": {
+          "pt": "Código",
+          "en": "Code"
+        },
+        "url": "https://github.com/klein-natan/examples-bank-churn"
+      }
+    ]
+  },
+  {
+    "title": {
+      "pt": "Material de IA & Dados (GitBook)",
+      "en": "AI & Data course notes (GitBook)"
+    },
+    "description": {
+      "pt": "Material de aula escrito com IA como primeiro rascunho e revisado por mim: um experimento de docência com a IA como ferramenta de autoria.",
+      "en": "Lecture notes drafted with AI and revised by me: a teaching experiment in using AI as an authoring tool."
+    },
+    "tags": [
+      {
+        "pt": "Ensino",
+        "en": "Teaching"
+      },
+      {
+        "pt": "IA generativa",
+        "en": "Generative AI"
+      }
+    ],
+    "links": [
+      {
+        "label": {
+          "pt": "Código",
+          "en": "Code"
+        },
+        "url": "https://github.com/klein-natan/IA-Dados-GitBook"
+      }
+    ]
+  }
+]
