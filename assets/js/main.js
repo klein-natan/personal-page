@@ -1,4 +1,4 @@
-// Troca de idioma e menu mobile. O idioma inicial é aplicado por um script no <head> (src/layout.html).
+// Troca de idioma, modo escuro e menu mobile. O idioma inicial é aplicado por um script no <head> (src/layout.html).
 (function () {
   var html = document.documentElement;
 
@@ -22,6 +22,26 @@
   });
   applyLang(currentLang());
 
+  // Modo escuro: o padrão é o claro (sépia); a escolha fica salva no navegador.
+  var themeMeta = document.querySelector('meta[name="theme-color"]');
+  function applyTheme(theme, save) {
+    if (theme === 'dark') html.setAttribute('data-theme', 'dark');
+    else html.removeAttribute('data-theme');
+    if (themeMeta) themeMeta.setAttribute('content', theme === 'dark' ? '#222C31' : '#F6F2ED');
+    document.querySelectorAll('[data-theme-toggle]').forEach(function (btn) {
+      btn.setAttribute('aria-pressed', String(theme === 'dark'));
+    });
+    if (save) {
+      try { localStorage.setItem('theme', theme); } catch (e) {}
+    }
+  }
+  document.querySelectorAll('[data-theme-toggle]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      applyTheme(html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark', true);
+    });
+  });
+  applyTheme(html.getAttribute('data-theme') === 'dark' ? 'dark' : 'light', false);
+
   var toggle = document.querySelector('.nav-toggle');
   var nav = document.getElementById('site-nav');
   if (toggle && nav) {
@@ -39,7 +59,7 @@
       }
     });
     window.addEventListener('resize', function () {
-      if (window.innerWidth > 1000) setOpen(false);
+      if (window.innerWidth > 1040) setOpen(false);
     });
   }
 

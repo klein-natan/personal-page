@@ -3,3 +3,4 @@ _site/
 materials/
 .DS_Store
 Thumbs.db
+.instrucoes*
