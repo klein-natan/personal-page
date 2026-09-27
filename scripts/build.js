@@ -7,6 +7,7 @@
 // Uso: node scripts/build.js [--drafts]
 
 import fs from 'node:fs';
+import crypto from 'node:crypto';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import matter from 'gray-matter';
@@ -30,6 +31,12 @@ const site = readJSON('data/site.json');
 const publications = readJSON('data/publications.json');
 const projects = readJSON('data/projects.json');
 const layout = readText('src/layout.html');
+
+// Versão curta de cada arquivo, usada como ?v= no endereço. Quando o arquivo muda, o endereço muda
+// e o navegador busca o novo, em vez de usar a cópia antiga do cache.
+const assetVersion = (p) => crypto.createHash('sha1').update(fs.readFileSync(path.join(ROOT, p))).digest('hex').slice(0, 10);
+const cssVersion = assetVersion('assets/css/style.css');
+const jsVersion = assetVersion('assets/js/main.js');
 
 // Abas do menu, na ordem em que aparecem. O nome do arquivo é src/pages/<id>.html.
 const NAV = [
@@ -278,6 +285,8 @@ function renderPage({ outPath, active, title, description, content, root }) {
       canonical: `${site.url}/${outPath === 'index.html' ? '' : outPath}`,
       ogImage: `${site.url}/assets/img/og.jpg`,
       nav: navHTML(active, root),
+      cssVersion,
+      jsVersion,
       content: '<!--CONTENT-->',
       site,
       year: String(new Date().getFullYear()),
